@@ -1,0 +1,88 @@
+.video-one {
+    padding: 210px 0 275px;
+    background: $thm_black url(../images/video-bg-1-1.jpg) center center no-repeat fixed;
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+
+    &:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-image: linear-gradient(-120deg, rgb(141, 15, 55) 0%, rgb(196, 10, 59) 50%, rgb(234, 7, 46) 100%);
+        opacity: .9;
+    }
+
+    &:after {
+        content: '';
+        width: 100%;
+        height: 30px;
+        background-image: linear-gradient(22deg, rgb(141, 15, 55) 0%, rgb(196, 10, 59) 50%, rgb(234, 7, 46) 100%);
+        transform: rotate(-3.5deg) translateY(-60px) scale(1.1);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    .container {
+        position: relative;
+        text-align: center;
+    }
+
+    &__link {
+        width: 125px;
+        height: 125px;
+        border-radius: 50%;
+        text-align: center;
+        background-color: #fff;
+        display: inline-block;
+        vertical-align: middle;
+
+        position: relative;
+
+        box-shadow: 0 0 0 0 rgba($thm_black, .2);
+        animation: ripple 3s infinite;
+
+        i {
+            line-height: 125px;
+            color: $thm_base_color;
+            font-size: 30px;
+            position: relative;
+            z-index: 11;
+        }
+
+        &:after,
+        &:before {
+            width: 125px;
+            height: 125px;
+            border-radius: 50%;
+            background-color: #FFFFFF;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            animation-delay: .9s;
+            content: "";
+            position: absolute;
+            box-shadow: 0 0 0 0 rgba($thm_black, .2);
+            animation: ripple 4s infinite;
+        }
+        &:after {
+        	animation-delay: .6s;
+        }
+    }
+
+    @keyframes ripple {
+        70% {
+            box-shadow: 0 0 0 70px rgba($thm_black, 0);
+        }
+
+        100% {
+            box-shadow: 0 0 0 0 rgba($thm_black, 0);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="554.017" height="488.721" viewBox="0 0 554.017 488.721">
+    <defs>
+    <linearGradient id="a" x1="1.276" y1="-1.962" x2="1.178" y2="4.226" gradientUnits="objectBoundingBox">
+        <stop offset="0" stop-color="#e72d4b" stop-opacity="0.565"/>
+        <stop offset="1" stop-color="#24080c" stop-opacity="0.251"/>
+    </linearGradient>
+    </defs>
+    <g transform="translate(927.661 1612)">
+        <path class ="part__line-1" d="M1343.689,29.381l-47.6,89.834h175.295a3.89,3.89,0,0,0,3.181-1.652l57.745-82.251a3.887,3.887,0,0,0-3.187-6.119Z" transform="translate(-2222.093 -1538.191)" stroke="#e72d4b" stroke-width="2" fill="url(#a)"/>
+        <path class ="part__line-2" d="M1481.694,31.459,1367.82,200.01a9.659,9.659,0,0,0,7.989,15.059h0a9.658,9.658,0,0,1,7.907,15.183l-40.45,57.857a3.156,3.156,0,0,0-.565,1.811l.105,118.087a4.01,4.01,0,0,0,7.264,2.343L1618.221,35.92a4.018,4.018,0,0,0-3.275-6.355l-130.656.507A3.162,3.162,0,0,0,1481.694,31.459Z" transform="translate(-1993.677 -1536.363)" stroke="#e72d4b" stroke-width="2" fill="url(#a)"/>
+        <path class ="part__line-3" d="M1624.123,11.906h93.316a9.823,9.823,0,0,1,7.984,15.412L1405.4,494.344a9.665,9.665,0,0,1-8.049,4.224l-88.282-.579a9.833,9.833,0,0,1-7.96-15.364q157.5-233.218,314.991-466.442A9.689,9.689,0,0,1,1624.123,11.906Z" transform="translate(-2205.882 -1622.906)" stroke="#e72d4b" stroke-width="2" fill="url(#a)"/>
+    </g>
+</svg>

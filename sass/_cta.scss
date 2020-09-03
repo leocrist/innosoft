@@ -1,0 +1,201 @@
+.cta-one {
+    background-color: #fff;
+
+
+    .container {
+        padding-top: 105px;
+        padding-bottom: 55px;
+
+        @media (max-width: 375px) {
+            padding-top: 70px;
+            padding-bottom: 0;
+        }
+    }
+
+    &__title {
+        margin: 0;
+        text-transform: uppercase;
+        color: #2A2D3B;
+        font-size: 50px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        margin: 0;
+        font-size: 24px;
+        color: #868994;
+        margin-bottom: 50px;
+    }
+
+    &__btn {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 20.5px 84.5px;
+        border-radius: 37.5px;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: 600;
+        color: $thm_black;
+        background-color: $thm_primary_color;
+        transition: all .4s ease;
+
+        &:hover {
+            background-color: $thm_base_color;
+            color: #fff;
+        }
+    }
+
+    &__home-two {
+        position: relative;
+        background-color: #2A2D3B;
+        transform: skew(0deg, -0deg) translateY(-0px);
+
+        .container {
+            position: relative;
+            transform: skew(0deg, 0deg);
+            padding-bottom: 120px;
+        }
+        .cta-one__title {
+            color: #fff;
+        }
+        .cta-one__text {
+            color: #9b9da8;
+        }
+    }
+}
+
+.cta-two {
+    padding-top: 235px;
+    padding-bottom: 215px;
+    position: relative;
+
+    &__images-block {
+        display: inline-block;
+        position: relative;
+    }
+
+    &__bubble {
+        display: inline-block;
+        vertical-align: middle;
+        width: 110px;
+        height: 110px;
+        background-color: #e7062b;
+        opacity: .1;
+        animation-name: squareMover;
+        animation-duration: 9s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        perspective: 100px;
+        transform-origin: center center;
+        position: absolute;
+
+        &-one {
+            top: 40%;
+            left: 5%;
+        }
+
+        &-two {
+            width: 44px;
+            height: 44px;
+            background-color: #f7c324;
+            bottom: 15%;
+            left: 15%;
+        }
+
+        &-three {
+            width: 88px;
+            height: 88px;
+            background-color: #f7c324;
+            top: 10%;
+            left: 32%;
+        }
+
+        &-four {
+            width: 44px;
+            height: 44px;
+            background-color: #e7062b;
+            top: 15%;
+            right: 20%;
+        }
+
+        &-five {
+            background-color: #f7c324;
+            right: 10%;
+            top: 50%;
+        }
+    }
+
+    .block-title {
+        margin: 0;
+        margin-bottom: 35px;
+    }
+
+    &__content {
+        @media (min-width: 992px) {
+            padding-left: 30px;
+            margin-top: -15px;
+        }
+    }
+
+    &__list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        margin-bottom: 55px;
+
+        &-item {
+            position: relative;
+            color: #868994;
+            font-size: 20px;
+            padding-left: 30px;
+
+            i {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                color: $thm_base_color;
+                font-size: 18px;
+            }
+        }
+
+        &-item+&-item {
+            margin-top: 4px;
+        }
+    }
+
+    &__text {
+        margin: 0;
+        color: #868994;
+        font-size: 24px;
+        line-height: 40px;
+        margin-bottom: 45px;
+    }
+}
+
+[class*='cta-two__image-'] {
+    box-shadow: 0px 10px 60px 0px rgba(46, 61, 98, 0.3);
+}
+
+[class*='cta-two__image-']:not(.cta-two__image-four) {
+    position: absolute;
+}
+
+.cta-two__image-one {
+    top: 0;
+    left: 0;
+    transform: translateY(-50%) translateX(-50%);
+}
+
+.cta-two__image-two {
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%) translateX(50%);
+}
+
+.cta-two__image-three {
+    bottom: 0;
+    left: 0;
+    transform: translateY(30%) translateX(-50%);
+}

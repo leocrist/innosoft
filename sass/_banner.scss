@@ -1,0 +1,235 @@
+.banner-one {
+    background: transparent url(../images/banner-bg-1-1.png) top left no-repeat;
+    background-size: cover;
+    padding-top: 255px;
+    padding-bottom: 364px;
+    position: relative;
+
+    &__bubble {
+        display: inline-block;
+        vertical-align: middle;
+        width: 110px;
+        height: 110px;
+        background-color: #fff;
+        opacity: .1;
+        animation-name: squareMover;
+        animation-duration: 9s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        perspective: 100px;
+        transform-origin: center center;
+        position: absolute;
+
+        &-one {
+            top: 20%;
+            left: 5%;
+        }
+
+        &-two {
+            background-color: #000;
+            width: 44px;
+            height: 44px;
+            bottom: 45%;
+            left: 15%;
+        }
+
+        &-three {
+            width: 88px;
+            height: 88px;
+            top: 10%;
+            left: 32%;
+        }
+
+        &-four {
+            width: 44px;
+            height: 44px;
+            top: 15%;
+            right: 45%;
+        }
+
+        &-five {
+            background-color: #000000;
+            right: 10%;
+            top: 20%;
+        }
+    }
+
+    &__title {
+        margin: 0;
+        color: #fff;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 1em;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    &__btn:hover {
+        background-color: #fff;
+        color: $thm_black;
+    }
+}
+
+[class*='banner-one__moc-'] {
+    position: absolute;
+    animation-name: bannerMocMover;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+    @media(max-width: 1440px) {
+        animation-name: bannerMocMoverResponsive;
+        transform-origin: right center;
+    }
+
+    @media(max-width: 1199px) {
+        animation-name: bannerMocMoverResponsive2;
+        transform-origin: right center;
+    }
+}
+
+.banner-one__moc-1 {
+    top: 20%;
+    right: 27%;
+
+    @media(max-width: 1440px) {
+        right: 30%;
+    }
+
+    @media(max-width: 1199px) {
+        right: 27%;
+    }
+}
+
+.banner-one__moc-2 {
+    top: 10%;
+    right: 0;
+}
+
+@keyframes bannerMocMover {
+
+    0%,
+    100% {
+        transform: translateY(0px);
+    }
+
+    25%,
+    75% {
+        transform: translateY(10px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+}
+
+@keyframes bannerMocMoverResponsive {
+
+    0%,
+    100% {
+        transform: translateY(0px) scale(.85);
+    }
+
+    25%,
+    75% {
+        transform: translateY(10px) scale(.85);
+    }
+
+    50% {
+        transform: translateY(20px) scale(.85);
+    }
+}
+
+@keyframes bannerMocMoverResponsive2 {
+
+    0%,
+    100% {
+        transform: translateY(0px) scale(.65);
+    }
+
+    25%,
+    75% {
+        transform: translateY(10px) scale(.65);
+    }
+
+    50% {
+        transform: translateY(20px) scale(.65);
+    }
+}
+
+
+
+.banner-two {
+    position: relative;
+    background: $thm_black url(../images/banner-bg-2-1.jpg) center center no-repeat;
+    background-size: cover;
+    padding-top: 155px;
+
+    &__bubble {
+        display: inline-block;
+        vertical-align: middle;
+        width: 110px;
+        height: 110px;
+        background-color: #fff;
+        opacity: .1;
+        animation-name: squareMover;
+        animation-duration: 9s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        perspective: 100px;
+        transform-origin: center center;
+        position: absolute;
+
+        &-one {
+            top: 20%;
+            left: 5%;
+        }
+
+        &-two {
+            background-color: #000;
+            width: 44px;
+            height: 44px;
+            bottom: 45%;
+            left: 15%;
+        }
+
+        &-three {
+            width: 88px;
+            height: 88px;
+            top: 10%;
+            left: 32%;
+        }
+
+        &-four {
+            width: 44px;
+            height: 44px;
+            top: 15%;
+            right: 45%;
+        }
+
+        &-five {
+            background-color: #000000;
+            right: 10%;
+            top: 20%;
+        }
+    }
+
+    &__title {
+        margin: 0;
+        color: #fff;
+        font-weight: 400;
+        font-size: 70px;
+        line-height: 1em;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+
+    &__btn:hover {
+        background-color: #fff;
+        color: $thm_black;
+    }
+    &__moc {
+        max-width: 100%;
+        margin-top: 40px;
+    }
+}

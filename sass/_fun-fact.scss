@@ -1,0 +1,35 @@
+.fun-fact-one {
+	padding-bottom: 110px;
+	margin-top: -95px;
+	position: relative;
+	z-index: 10;
+	&__block-title {
+		font-size: 16px;
+		text-transform: uppercase;
+		font-weight: 500;
+		color: #868994;
+		letter-spacing: .04em;
+		line-height: 1em;
+		text-decoration: underline;
+		margin-bottom: 45px;
+	}
+	&__title {
+		margin: 0;
+		color: $thm_black;
+		font-weight: 400;
+		letter-spacing: .04em;
+		font-size: 60px;
+	}
+	&__text {
+		margin: 0;
+		color: #868994;
+		font-size: 14px;
+		font-weight: 500;
+		margin-top: 5px;
+	}
+
+	&__home-two {
+		padding-top: 120px;
+		margin-top: 0;
+	}
+}

@@ -1,0 +1,120 @@
+/***************************************************************************************************************
+||||||||||||||||||||||||||||            MASTER STYLESHEET FOR Zieno         ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. imported styles
+* 2. common styles
+* 3. header styles
+* 4. banner styles
+* 5. fun-fact styles
+* 6. service styles
+* 7. feature styles
+* 8. testimonials styles
+* 9. brand styles
+* 10. price styles
+* 11. video styles
+* 12. faq styles
+* 13. blog styles
+* 14. cta styles
+* 15. footer styles
+* 16. inner-banner styles
+* 17. sidebar styles
+* 18. dark-theme styles
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+
+// helper functions
+@import 'helper-functions';
+
+/*
+* 1. imported styles
+*/
+@import 'imported';
+
+/*
+* 2. common styles
+*/
+@import 'common';
+
+/*
+* 3. header styles
+*/
+@import 'header';
+
+/*
+* 4. banner styles
+*/
+@import 'banner';
+
+/*
+* 5. fun-fact styles
+*/
+@import 'fun-fact';
+
+/*
+* 6. service styles
+*/
+@import 'service';
+
+/*
+* 7. feature styles
+*/
+@import 'feature';
+
+/*
+* 8. testimonials styles
+*/
+@import 'testimonials';
+
+/*
+* 9. brand styles
+*/
+@import 'brand';
+
+/*
+* 10. price styles
+*/
+@import 'price';
+
+/*
+* 11. video styles
+*/
+@import 'video';
+
+/*
+* 12. faq styles
+*/
+@import 'faq';
+
+/*
+* 13. blog styles
+*/
+@import 'blog';
+
+/*
+* 14. cta styles
+*/
+@import 'cta';
+
+/*
+* 15. footer styles
+*/
+@import 'footer';
+
+/*
+* 16. inner-banner styles
+*/
+@import 'inner-banner';
+
+/*
+* 17. sidebar styles
+*/
+@import 'sidebar';
+
+/*
+* 18. dark-theme styles
+*/
+@import 'dark-theme';
